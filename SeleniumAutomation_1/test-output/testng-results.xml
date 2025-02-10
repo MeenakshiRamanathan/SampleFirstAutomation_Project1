@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-01T20:54:10 PST" name="Suite" finished-at="2025-02-01T20:55:50 PST" duration-ms="100058">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="BasePage.submitOrder()[pri:0, instance:FunctionalProject.New.BasePage@5119fb47]" name="submitOrder" class="FunctionalProject.New.BasePage"/>
+        <method signature="ErrorValidation.submitOrder()[pri:0, instance:FunctionalProject.New.ErrorValidation@6dc17b83]" name="submitOrder" class="FunctionalProject.New.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-01T20:54:10 PST" name="BasePage" finished-at="2025-02-01T20:55:50 PST" duration-ms="100058">
+      <class name="FunctionalProject.New.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FunctionalProject.New.ErrorValidation@6dc17b83]" started-at="2025-02-01T20:54:28 PST" name="launchApplication" finished-at="2025-02-01T20:55:49 PST" duration-ms="81162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:FunctionalProject.New.ErrorValidation@6dc17b83]" started-at="2025-02-01T20:55:49 PST" name="submitOrder" finished-at="2025-02-01T20:55:50 PST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FunctionalProject.New.ErrorValidation@6dc17b83]" started-at="2025-02-01T20:55:50 PST" name="tearDown" finished-at="2025-02-01T20:55:50 PST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FunctionalProject.New.ErrorValidation -->
+      <class name="FunctionalProject.New.BasePage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FunctionalProject.New.BasePage@5119fb47]" started-at="2025-02-01T20:54:10 PST" name="launchApplication" finished-at="2025-02-01T20:54:18 PST" duration-ms="7560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:FunctionalProject.New.BasePage@5119fb47]" started-at="2025-02-01T20:54:18 PST" name="submitOrder" finished-at="2025-02-01T20:54:27 PST" duration-ms="9831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FunctionalProject.New.BasePage@5119fb47]" started-at="2025-02-01T20:54:27 PST" name="tearDown" finished-at="2025-02-01T20:54:28 PST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FunctionalProject.New.BasePage -->
+    </test> <!-- BasePage -->
+  </suite> <!-- Suite -->
+</testng-results>
