@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+<listeners>
+       <listener class-name="Global.MyListeners"/>
+   </listeners>
+
+  <test name="BasePage">
+  <groups>
+  
+  <run>
+  <include name="ErrorHandling"/>
+  </run>
+  
+  </groups>
+  <classes>
+              <class name="Automation_Project1.Testcase1"/>
+              <class name="Automation_Project1.Testcase2"/>
+            </classes>
+  </test>
+  
+
+  </suite>
+      
+    
+
+
+
+ 
